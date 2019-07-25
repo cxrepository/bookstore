@@ -187,6 +187,9 @@
 			sReturn = "";
 		}
 
+		// Stored_XSS fix
+	        sReturn = Server.HTMLEncode(sReturn);
+		
 		reader.Close();
 		return sReturn;
 	}
