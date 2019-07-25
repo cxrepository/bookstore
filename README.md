@@ -1,3 +1,3 @@
 # Bookstore
 
-.NET application to demonstrate Checkmarx integration into SDLC
+.NET application to demo Checkmarx integration into SDLC
