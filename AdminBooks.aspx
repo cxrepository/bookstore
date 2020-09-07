@@ -1,6 +1,6 @@
-﻿<%@ Page language="c#" Inherits="Book_Store.AdminBooks" CodeFile="AdminBooks.cs" %>
+<%@ Page language="c#" Inherits="Book_Store.AdminBooks" CodeFile="AdminBooks.cs" %>
 <%@ Register TagPrefix="CC" TagName="Header" Src="Header.ascx" %><%@ Register TagPrefix="CC" TagName="Footer" Src="Footer.ascx" %><%@Register TagPrefix="CC" TagName="Pager" Src="CCPager.ascx"%>
-
+ 
 
 <html>
   <head>
@@ -14,6 +14,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head>
   <body style="background-color: #FFFFFF; color: #000000; font-family: Arial, Tahoma, Verdana, Helveticabackground-color: #FFFFFF; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">
 
+<script>
+var token = '1235'
+var password = '1235'
+</script>
   <form method="post" runat="server">
 <CC:Header id="Header" runat="server"/>
 	
