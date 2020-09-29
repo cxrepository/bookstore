@@ -1,7 +1,7 @@
 ﻿<%@ Page language="c#" Inherits="Book_Store.AdvSearch" CodeFile="AdvSearch.cs" %>
 <%@ Register TagPrefix="CC" TagName="Header" Src="Header.ascx" %><%@ Register TagPrefix="CC" TagName="Footer" Src="Footer.ascx" %><%@Register TagPrefix="CC" TagName="Pager" Src="CCPager.ascx"%>
 <html>
-  <head>
+  <head> 
 	<title>Book Store</title>
 	<meta name=vs_targetSchema content="http://schemas.microsoft.com/intellisense/ie3-2nav3-0">
 	<meta name="GENERATOR" content="YesSoftware CodeCharge v.2.0.5 using 'ASP.NET C#.ccp' build 9/27/2001">
